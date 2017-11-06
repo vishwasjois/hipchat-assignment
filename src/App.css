@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App .chatInput,
+.App .jsonList {
+  height: 220px;
+  display: inline-block;
+  width: calc(50% - 30px);
+  padding: 10px;
+}
+
+.message-input {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h2.appTitle {
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  margin-top: 0px;
+  color: #fff;
+  background: #000;
+  text-align: left;
+  font-weight: 100;
+}
+
+button.closeBtn {
+  width: 120px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.jsonList {
+  text-align: left;
+  vertical-align: top;
+  border-left: 1px solid #ccc;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
