@@ -7,6 +7,14 @@ Running the applicarion :
 Access UI  : 
 localhost:3000
 
+@ Vlar 
+We did discuss about the production ready code for this assignment but due to time constraints I had to put up the first cut version. This is not even 50% production ready but has all teh fiunctionalities, needs a few more hours to get to a polished state. 
+Following are the Todos I had in pipeline 
+* Move text area and buttons into components 
+* Add common ajax handler and move the inline fetch call to a specific client controller
+* Documentation / JSDocs 
+
+
 Problem statement : 
 
 Your service should parse the following data from the input:
